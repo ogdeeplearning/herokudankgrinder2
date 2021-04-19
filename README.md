@@ -1,38 +1,21 @@
-# Dank Grinder [![](https://goreportcard.com/badge/github.com/dankgrinder/dankgrinder)](https://goreportcard.com/report/github.com/dankgrinder/dankgrinder) [![](https://img.shields.io/github/workflow/status/dankgrinder/dankgrinder/Go)](https://github.com/dankgrinder/dankgrinder/actions) ![](https://img.shields.io/github/license/dankgrinder/dankgrinder) [![](https://img.shields.io/github/v/release/dankgrinder/dankgrinder)](https://github.com/dankgrinder/dankgrinder/releases/latest) ![](https://img.shields.io/github/downloads/dankgrinder/dankgrinder/total)
+# Dank Grinder ON HEROKUU[![](https://goreportcard.com/badge/github.com/dankgrinder/dankgrinder)](https://goreportcard.com/report/github.com/dankgrinder/dankgrinder) [![](https://img.shields.io/github/workflow/status/dankgrinder/dankgrinder/Go)](https://github.com/dankgrinder/dankgrinder/actions) ![](https://img.shields.io/github/license/dankgrinder/dankgrinder) [![](https://img.shields.io/github/v/release/dankgrinder/dankgrinder)](https://github.com/dankgrinder/dankgrinder/releases/latest) ![](https://img.shields.io/github/downloads/dankgrinder/dankgrinder/total)
 The most feature-rich, advanced Dank Memer automation tool.
 
-Want to join the community or need support? [Join our Discord](https://discord.gg/Fjzpq8YPSn). Have a question? [Create a question issue](https://github.com/dankgrinder/dankgrinder/issues/new?assignees=&labels=question&template=question.md&title=). Want to suggest a feature? [Create a suggestion issue](https://github.com/dankgrinder/dankgrinder/issues/new?assignees=&labels=suggestion&template=suggestion.md&title=). Encountered a bug? [Report a bug](https://github.com/dankgrinder/dankgrinder/issues/new?assignees=&labels=bug&template=bug-report.md&title=). Want to contribute? [Read our contribution guidelines](https://github.com/dankgrinder/dankgrinder/blob/master/CONTRIBUTING.md).
+Want to join the community or need support? [Join our Discord](https://discord.gg/Fjzpq8YPSn) or like dm me on Malamute 2.0#4715. Have a question? Dm mee. Or ping me in dankgrinder. Want to suggest a feature? You guessed it Dm Me. Encountered a bug? Mhm. Dm Me. Want to contribute? Uh idk never had contributors but sure open an issue or dm me. 
 
 <p align="center">
 <img src="https://i.imgur.com/3AQk7eh.png" alt="logo" />
 </p>
 
 ## Features
-* Can run many instances at once
-* Uses very little system resources
-* High configurability; configure custom commands and much more
-* Automation of most currency commands and blackjack
-* Responds to fishing and hunting events (i.e. captures the dragon and special fish)
-* Responds to global events, search, and postmeme
-* Automatically uses tidepods and buys lifesavers when dying from them
-* Automatically buys a fishing pole, hunting rifle or laptop if they have broken
+* Yeah it's what dankgrinder is i just modified it lmao.
 
 ## Getting started
 
 ### Installation
-1. Download the latest release for your operating system [here](https://github.com/dankgrinder/dankgrinder/releases/latest) (darwin is for macOS), or [build from source](#building-from-source). If you build from source you can delete everything besides the compiled binaries and config.yml.
-2. Extract the archive
-3. [Configure](#configuration). Make sure `token` and `channel_id` fields of the instance are set, it will not run otherwise
-
-#### Windows
-4. Double click dankgrinder.exe. If the program closes immediately after opening it, open a command prompt and drag the executable to it, then hit enter. You will now be able to see the error
-
-#### Linux
-4. Run the binary:  
-   `$ ./dankgrinder`
-
-#### macOS
-4. Run by double clicking the dankgrinder binary
+1. Clone this
+2. Deploy to heroku
+3. Run stuff imma tell u abt laterrr.
 
 ### Getting an authorization token
 1. Go to Discord, logged into the account you want to use
@@ -49,21 +32,6 @@ To obtain a channel id for config.yml, you will need to have developer mode enab
 3. Scroll down to "advanced" and enable developer mode
 
 You can now right click any user or channel to obtain the id.
-
-## Building from source
-If you use an architecture other than amd64, or you want to build from source for another reason, doing so is quite simple.
-
-### Prerequisites
-A working Go installation, see https://golang.org/doc/install.
-
-### Building
-1. Clone the repository:  
-   `$ git clone https://github.com/dankgrinder/dankgrinder.git`
-2. Build:  
-   `$ make build`
-
-The executables should then be in the `/build` folder.
-
 ## Configuration
 All configuration can be done by editing config.yml with your editor of choice (e.g. Visual Studio Code, Sublime Text, Notepad++). The comments in the file itself provide extra explanation where necessary. For the bot to run, you must at least enter an [authorization token](#getting-an-authorization-token) and a [channel id](#enabling-discords-developer-mode). If you are running into issues, you can [join our Discord](https://discord.gg/Fjzpq8YPSn).
 
